@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img-container {
+  margin: 50px 0;
+  width: 50vw;
+  height: 28vw;
+  overflow: hidden;
+}
+.img-container img {
+  width: 50vw;
+  height: auto;
+}
+.user-input {
+  display: grid;
+  bottom: 100px;
+  width: 400px;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+}
+.user-input p {
+  text-align: center;
+}
